@@ -112,13 +112,13 @@ header {
     }
 }
 
-@media (min-width: 600px) and (max-width: 700px) {
+@media (max-width: 700px) {
     #logo {
         margin: 0.25em 15vw;
     }
 
     section {
-        padding: 0.5em 4em;
+        padding: 0.5em 2em;
     }
 }
 
