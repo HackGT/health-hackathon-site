@@ -203,3 +203,19 @@ table {
 .center {
     text-align: center; 
 }
+
+.sponsors > img {
+    height: 10vh;
+    width: auto;
+    display: flex-inline;
+    margin: 0.5em;
+}
+
+.sponsors {
+    width: 100%;
+    text-align: center;
+}
+
+#date {
+    margin-bottom: 0;
+}
