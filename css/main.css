@@ -211,6 +211,7 @@ table {
     width: 100%;
     text-align: center;
     font-size: 1.1em;
+    table-layout: fixed;
 }
 
 .center {
