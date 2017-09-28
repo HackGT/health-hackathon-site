@@ -217,11 +217,19 @@ table {
     text-align: center;
 }
 
-.sponsors > img {
+.sponsors > a > img {
     height: 15vh;
     width: auto;
     display: flex-inline;
     margin: 0.5em;
+}
+
+.sponsors > a:hover::after {
+    display: none;
+}
+
+.sponsors > a {
+    padding: 2em;
 }
 
 .sponsors {
