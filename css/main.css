@@ -215,6 +215,14 @@ h4 { font-size: 1.5em; }
 h5 { font-size: 1.25em; }
 h6 { font-size: 1.0em; }
 
+@media (min-width: 3000px) {
+    body { font-size: 3em; }
+}
+
+@media (min-width: 2000px and max-width: 2999px) {
+    body { font-size: 2em; }
+}
+
 table {
     width: 100%;
     text-align: center;
